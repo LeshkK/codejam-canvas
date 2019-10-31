@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header><div class="codejam">CodeJam-Canvas</div></header>
+        <div>
+            <div class="tool">
+                <li><img src="./icon/Vector.png" alt="icon">Paint bucket</li>
+                <li><img src="./icon/vector-1.png" alt="icon">Choose color</li>
+                <li><img src="./icon/vector4.png" alt="icon">Move</li>
+                <li><img src="./icon/vector3.png" alt="icon">Transform</li>
+            </div>
+            <div class="color">
+                <li><div class="cirсle"></div> Current color</li>
+                <li><div class="cirсle"></div> Prev color</li>
+                <li><div class="cirсle"></div> Red</li>
+                <li><div class="cirсle"></div> Blue</li>
+            </div>
+        </div>
+        <div><canvas id="canvas" height='512' width='512'></canvas></div>
+        <div class="picture">
+            <li id="draw4x4">4x4</li>
+            <li id="draw32x32">32x32</li>
+            <li id="draw256x256">256x256</li>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

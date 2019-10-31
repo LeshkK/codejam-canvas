@@ -1,0 +1,65 @@
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+li {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+img {
+    margin-right: 25px;
+}
+
+li:hover {
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.cirсle {
+    height: 15px;
+    width: 15px;
+    background: #C4C4C4;
+    border: 1px solid black;
+    margin-right: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.codejam {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 15%;
+}
+
+.tool, .color, .picture {
+    width: 200px;
+    margin-top: 50px;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.picture {
+    width: 100px;
+    height: 110px;
+}
+
+#canvas {
+    background-color: grey;
+    border: 1px solid black;
+    margin: 50px;
+}
